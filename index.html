@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>LATTE COFFE</title>
+	<style>
+	body{
+	background-color: #E9E9E3;
+	width:1440px;
+	height:1277px
+	}
+	.tit{
+	position:absolute;
+	top:60px;
+	left:40px;
+	color:#6F6F64;
+	font-family:cursive;
+	font-size:18px;
+	font-weight: 700;
+	}
+	.Chan{
+	position:absolute;
+	top:90px;
+	left:40px;
+	font-family:sans-serif;
+	font-size:32px;
+	color:#6F6F64;
+	}
+	.but{
+	position:absolute;
+	top:290px;
+	left:40px;
+	width:531px;
+	height:58px;
+	}
+	.but:active {
+    background-color: #6F6F64;
+	color:white;
+	border:white;
+}
+	.but1{
+	position:absolute;
+	top:370px;
+	left:40px;
+	width:531px;
+	height:58px;}
+	.but2{
+	position:absolute;
+	top:450px;
+	left:40px;
+	width:531px;
+	height:58px;}
+	.png{
+	margin-left:600px;
+	margin-top:70px;
+	}
+	</style>
+</head>
+<body>
+<p class="tit">Menu</p>
+<pre class="Chan">We change our menu every season.
+Here is what we are currently 
+dishing up.</pre>
+<div class="butns">
+<button id ="First" class="but" onclick="changeImage()" >Food Menu</button>
+<button id ="Second"class="but1" onclick="changeImage1()">Drinks Menu</button>
+<button id ="Third" class="but2" onclick="changeImage2()">Takeaway Menu</button>
+</div>
+
+<p>
+    <img  class="png" alt="" src="PIC/еда.png" 
+        height ="700p" width="520" id="imgClickAndChange"/>
+</p>
+<script src="js/myscript.js"></script>
+</body>
+</html>
